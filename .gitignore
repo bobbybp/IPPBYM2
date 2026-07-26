@@ -1,0 +1,30 @@
+# -----------------------------------------------------------------------------
+# Data are NOT tracked in this repository (ethics / data-sharing restrictions).
+# See data/README.md. These patterns keep data and derived outputs out of git.
+# -----------------------------------------------------------------------------
+data/*.xlsx
+data/*.csv
+data/*.shp
+data/*.shx
+data/*.dbf
+data/*.prj
+data/*.zip
+data/shapefile/
+
+# Model / analysis outputs
+output/
+*.rds
+*.RData
+
+# Stan compiled artefacts
+*.o
+*.hpp
+stan/*.exe
+stan/ipp_bym2
+stan/ipp_bym2_loho
+stan/area_bym2
+
+# R / editor cruft
+.Rhistory
+.Rproj.user/
+.DS_Store
